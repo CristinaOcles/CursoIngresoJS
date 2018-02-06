@@ -10,8 +10,8 @@ var suma;
 numero1 = document.getElementById('numeroUno').value;
 numero2 = document.getElementById('numeroDos').value;
 
-numero1 = parseInt(1, 10);
-numero2 = parseInt(2, 10);
+numero1 = parseInt(numero1, 10);
+numero2 = parseInt(numero2, 10);
 suma = numero1 + numero2;
 
 alert ("la suma es: " + suma);

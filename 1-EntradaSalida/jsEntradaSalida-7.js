@@ -2,18 +2,20 @@
 transformarlos a enteros (parseInt),realizar la operación correcta y 
 mostar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/
-
-	
-function sumar()
-{	
 	var numero1;
 	var numero2;
 	var suma; 
+	var resta;
+	var multiplicar;
+	var dividir;
 
+function sumar()
+{	
+	
 	numero1 = document.getElementById('numeroUno').value;
 	numero2 = document.getElementById('numeroDos').value;	
-	numero1 = parseInt(1, 10);
-	numero2 = parseInt(2, 10);
+	numero1 = parseInt(numero1, 10);
+	numero2 = parseInt(numero2, 10);
 
 	suma = numero1 + numero2;
 	alert("La suma es " + suma);
@@ -21,12 +23,10 @@ function sumar()
 
 function restar()
 {
-	var numero1;
-	var numero2;
-	var resta;
 
-	numero1 = parseInt(1, 10);
-	numero2 = parseInt(2, 10);
+
+	numero1 = parseInt(numero1, 10);
+	numero2 = parseInt(numero2, 10);
 	numero1 = document.getElementById('numeroUno').value;
 	numero2 = document.getElementById('numeroDos').value;
 
@@ -36,12 +36,11 @@ function restar()
 
 function multiplicar()
 { 
-	var numero1;
-	var numero2;
-	var multiplicar;
+	
+	
 
-	numero1 = parseInt(1, 10);
-	numero2 = parseInt(2, 10);
+	numero1 = parseInt(numero1, 10);
+	numero2 = parseInt(numero2, 10);
 	numero1 = document.getElementById('numeroUno').value;
 	numero2 = document.getElementById('numeroDos').value;
 
@@ -53,12 +52,10 @@ function multiplicar()
 
 function dividir()
 {
-	var numero1;
-	var numero2;
-	var dividir;
+	
 
-	numero1 = parseInt(1, 10);
-	numero2 = parseInt(2, 10);
+	numero1 = parseInt(numero1, 10);
+	numero2 = parseInt(numero2, 10);
 	numero1 = document.getElementById('numeroUno').value;
 	numero2 = document.getElementById('numeroDos').value;
 
