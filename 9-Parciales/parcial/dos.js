@@ -3,7 +3,8 @@ function Mostrar()
 	  var importe;
 	  var importeFinal;
 
-	  importe = promt("Ingresa importe de producto: ");
+	  importe = prompt("Ingresa importe de producto");
+	  importe = parseInt(importe);
 	  importeFinal = (importe * 0.21) + importe;
 
 
