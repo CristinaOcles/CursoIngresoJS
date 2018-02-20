@@ -18,7 +18,7 @@ while(respuesta == true)
 
 		if(numero<0)
 		{
-			negativo= negativo + numero;
+			negativo= negativo * numero;
 		}
 		if(numero>0)
 		{
